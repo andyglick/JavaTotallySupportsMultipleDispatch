@@ -1,0 +1,30 @@
+package main;
+
+public class MultipleDispatck {
+	public static void main(String[] args) {
+		
+	}
+	
+}
+
+interface Collidable {
+	
+}
+
+class Asteroid implements Collidable {
+	public void collideWith(Asteroid asteroid) {
+		System.out.println("ASTEROID ON ASTEROID COLLISION!!!");
+	}
+	public void collideWith(SpaceCruiser cruiser) {
+		System.out.println("ASTEROID ON CRUISER COLLISION!!!");
+	}
+}
+
+class SpaceCruiser implements Collidable {
+	public void collideWith(Asteroid asteroid) {
+		System.out.println("CRUISER ON ASTEROID COLLISION!!!");
+	}
+	public void collideWith(SpaceCruiser cruiser) {
+		System.out.println("CRUISER ON CRUISER COLLISION!!!");
+	}
+}
