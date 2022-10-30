@@ -1,4 +1,0 @@
-INDEX VERSION 1.131+E:\Desktop\Projects\University\2022\SWEN423\javaMultipleDispatchProof\.metadata\.plugins\org.eclipse.jdt.core
-3453162327.index
-75931715.index
-1865797976.index
